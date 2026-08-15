@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains live secrets — never commit)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Uploaded product images (user-generated, don't version-control)
+uploads/*
+!uploads/.gitkeep
+
+# Editor/OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
